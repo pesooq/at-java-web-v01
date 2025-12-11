@@ -18,6 +18,6 @@ public class SimpleWikiTest {
     void test02() {
         open("https://ru.wikipedia.org/wiki/Selenium");
         $("body").shouldHave(text("Selenide"));
-        sleep(2000);
+        //sleep(2000);
     }
 }
