@@ -23,8 +23,16 @@ dependencies {
     testImplementation 'com.codeborne:selenide:7.7.3'
     testImplementation 'io.qameta.allure:allure-selenide:2.29.0'
     testImplementation "org.slf4j:slf4j-simple:2.0.12"
+    //testImplementation 'org.seleniumhq.selenium:selenium-devtools-v143:4.29.0'
+    // Замените конкретную зависимость на общую
+    //testImplementation 'org.seleniumhq.selenium:selenium-devtools:4.29.0'
+    // Ваши остальные зависимости Selenium остаются прежними
+    testImplementation 'org.seleniumhq.selenium:selenium-java:4.29.0'
+    testImplementation 'org.aspectj:aspectjweaver:1.9.19'
+    testImplementation 'org.springframework:spring-aspects:5.3.23'
 
     testRuntimeOnly('org.junit.jupiter:junit-jupiter-engine:5.11.4')
+
 }
 tasks.withType(JavaCompile).configureEach {
     options.encoding = 'UTF-8'
