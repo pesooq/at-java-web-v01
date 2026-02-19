@@ -1,4 +1,4 @@
-package demo.part0223;
+package work.part0223;
 
 import com.codeborne.selenide.Configuration;
 import com.codeborne.selenide.SelenideElement;
